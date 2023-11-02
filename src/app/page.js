@@ -55,13 +55,13 @@ export default function Home() {
     console.log(payload); // Log the payload, including the selected role, email, and password
 
     if (payload.role === "Admin") {
-    window.location.href ="/dashboard/admin";
+    window.location.href ="/systemadmin/dashboard";
     } else if (payload.role === "Reseller") {
-      window.location.href ="/dashboard/reseller";
+      window.location.href ="/reseller/dashboard";
     } else if (payload.role === "AccountManager") {
-      window.location.href ="/dashboard/accountmanager";
+      window.location.href ="/accountmanager/dashboard";
     } else if (payload.role === "EndUser") {
-      window.location.href ="/dashboard/enduser";
+      window.location.href ="/enduser/dashboard";
     }
   }
 

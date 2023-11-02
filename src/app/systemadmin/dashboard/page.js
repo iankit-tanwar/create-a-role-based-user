@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function page() {
   return (
-    <h1> accountmanager page</h1>
+    <h1>System Admin page</h1>
   )
 }
